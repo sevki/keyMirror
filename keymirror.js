@@ -48,5 +48,3 @@ var keyMirror = function(obj) {
   }
   return ret;
 };
-
-module.exports = keyMirror;

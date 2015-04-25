@@ -1,5 +1,6 @@
 KeyMirror
 =========
+fork of https://github.com/STRML/keyMirror
 
 Create an object with values equal to its key names.
 
@@ -10,10 +11,9 @@ This is not my code, this is property of Facebook.
 Usage
 -----
 
-`npm install keymirror`
+`meteor add sevki:keymirror`
 
 ```javascript
-var keyMirror = require('keymirror');
 var COLORS = keyMirror({blue: null, red: null});
 var myColor = COLORS.blue;
 var isColorValid = !!COLORS[myColor];
@@ -25,11 +25,3 @@ not equal to their keys.
 Input:  `{key1: val1, key2: val2}`
 
 Output: `{key1: key1, key2: key2}`
-
-I sometimes use this with lodash - use the following upon your first use of lodash to mix it in:
-
-```javascript
-var _ = require('lodash');
-_.mixin({keyMirror: require('keyMirror')});
-// Can now be used as _.keyMirror(object)
-```
