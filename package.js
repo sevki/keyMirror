@@ -1,8 +1,8 @@
 Package.describe({
   name: 'sevki:keymirror',
-  version: '0.0.1',
+  version: '0.1.1',
   // Brief, one-line summary of the package.
-  summary: 'Create an object with values equal to its key names.',
+  summary: 'A simple utility for creating an object with values equal to its keys.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/sevki/keyMirror',
   // By default, Meteor will default to using README.md for documentation.
