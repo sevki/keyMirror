@@ -35,7 +35,7 @@
  * @param {object} obj
  * @return {object}
  */
-var keyMirror = function(obj) {
+keyMirror = function(obj) {
   var ret = {};
   var key;
   if (!(obj instanceof Object && !Array.isArray(obj))) {

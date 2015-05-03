@@ -2,7 +2,7 @@ Package.describe({
   name: 'sevki:keymirror',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Create an object with values equal to its key names.',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/sevki/keyMirror',
   // By default, Meteor will default to using README.md for documentation.
@@ -18,6 +18,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('keymirror');
+  api.use('sevki:keymirror');
   api.addFiles('keymirror-tests.js');
 });
